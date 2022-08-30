@@ -511,11 +511,10 @@ footer {
 }
 
 @media screen and (max-width:940px) {
-    body {
+    body{
         padding: 0
     }
-
-    .wpp-cta {
+    .wpp-cta{
         left: 0;
         position: fixed;
     }
