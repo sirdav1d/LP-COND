@@ -358,7 +358,7 @@ main h1 {
     font-weight: bolder;
     font-size: 28px;
     color: whitesmoke;
-    margin-left: 80px;
+    margin: 0px auto;
 }
 
 .container-slider {
@@ -592,7 +592,6 @@ footer {
 
     .type1 p {
         font-size: 14px;
-        text-align: center;
         padding: 8px 24px;
     }
 
@@ -636,8 +635,8 @@ footer {
     }
 
     .content-cta p {
-        font-size: 10px;
-        margin: 20px;
+        font-size: 12px;
+        margin: 0px auto;
     }
 
     .slider {
