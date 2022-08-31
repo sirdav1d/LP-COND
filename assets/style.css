@@ -188,10 +188,10 @@ main h1 {
 
 .body-form {
     display: flex;
-    margin: 4px 8px;
-    padding: 0 8px;
-    width: 160px;
-    text-align: end;
+    margin: 4px 0px;
+    padding: 0 4px;
+    width: 220px;
+    text-align: start;
 }
 
 .body-form label {
@@ -277,7 +277,7 @@ main h1 {
     font-weight: bolder;
     text-decoration: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     transition: all .4s ease;
 }
 
@@ -289,7 +289,7 @@ main h1 {
     display: flex;
     flex-direction: column;
     box-shadow: 0px -10px 30px -22px rgba(0, 0, 0, 0.98);
-    background-image: url(./img/closeup-of-cctv-camera-on-the-wall.jpg);
+    background-image: url(https://pbs.twimg.com/media/FbdTaAAWIAEabYj?format=jpg&name=4096x4096);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -314,7 +314,8 @@ main h1 {
     border: 2px solid rgba(255, 255, 255, 0.525);
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 100%;
+    max-width:550px;
     text-align: center;
     justify-content: space-evenly;
     margin: 28px auto 80px;
@@ -345,6 +346,7 @@ main h1 {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 30px 15px;
     background-color: var(--verde);
     box-shadow: 0px 10px 30px -22px rgba(0, 0, 0, 0.98), inset 0px 10px 30px -22px rgba(0, 0, 0, 0.98), inset 0px -10px 30px -22px rgba(0, 0, 0, 0.98);
@@ -605,7 +607,8 @@ footer {
     }
 
     .container-type2{
-        width: 300px;
+        width: 100%;
+        max-width: 320px;
         
     }
     .container-type2 p {
@@ -633,7 +636,7 @@ footer {
     }
 
     .content-cta p {
-        font-size: 12px;
+        font-size: 10px;
         margin: 20px;
     }
 
