@@ -65,7 +65,7 @@ main{
 }
 
 .headLine-p {
-    margin: 12px 0 12px;
+    margin: 4px 0 16px;
     font-size: 14px;
     text-align: center;
 }
@@ -93,7 +93,7 @@ main{
     width: 280px;
     height: auto;
     object-fit: cover;
-    margin: 8px 4px;
+    margin: 8px 24px;
 }
 
 .offer-p{
@@ -103,14 +103,13 @@ main{
 }
 
 .offer-price{
-    margin-top: 8px;
+    margin: 8px 0;
     color: red;
     font-size: 32px;
     text-align: center;
 }
 
 .btn-green {
-    margin-top: 4px;
     padding: 12px 8px;
     width: 260px;
     background-color:#03a60e ;
