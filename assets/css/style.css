@@ -6,6 +6,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
 }
 
 :root {
@@ -89,6 +90,7 @@ main h1 {
     color: var(--preto);
     padding: 25px;
     padding-top: 40px;
+    font-weight: bolder;
 }
 
 .container {
@@ -110,6 +112,7 @@ main h1 {
     margin: 10px 0;
     color: var(--verde);
     font-size: 18px;
+    font-weight: bolder;
 }
 
 .content-aside p {
@@ -184,6 +187,7 @@ main h1 {
 
 .body-form-all legend {
     padding: 12px;
+    font-size: 16px;
 }
 
 .body-form {
@@ -244,6 +248,7 @@ main h1 {
 .container-type1 h3 {
     padding: 15px 5px;
     font-size: 24px;
+    font-weight: bolder;
 }
 
 .type1 {
@@ -282,7 +287,8 @@ main h1 {
 }
 
 .btn-green:hover {
-    background-color: #01d90f
+    background-color: #01d90f;
+    color: whitesmoke;
 }
 
 .containerSection {
@@ -306,6 +312,7 @@ main h1 {
     margin-top: 20px;
     font-size: 28px;
     color: whitesmoke;
+    font-weight: bolder;
     text-shadow: 0 4px 4px black;
 
 }
@@ -336,6 +343,60 @@ main h1 {
     margin: 24px;
     color: white;
     text-align: justify;
+}
+
+.containerSetores{
+    background-color: #262626;
+    padding: 20px 0 12px;
+    box-shadow: 0px -17px 30px -22px rgba(0, 0, 0, 0.98);
+}
+
+.containerSetores h1{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.containerSetores img{
+    width: 240px;
+    height: 240px;
+    object-fit: contain;
+    margin: 40px auto 0;
+}
+
+#mainSlider.carousel {
+    width: 90%;
+    max-width: 720px;
+    margin: 40px auto;
+    background-color: #262626;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#mainSlider .carousel-caption {
+    text-align: justify;
+    font-size: 14px;
+    margin: 0 0 40px;
+}
+
+.carousel-item {
+    height: 70vh;
+    width: 100%;
+    max-width: 720px;
+}
+
+.carousel-indicators .active {
+    background-color: #01d90f;
+    transition: all .3s ease;
+}
+
+.carousel-indicators li:hover {
+    background-color:var(--verde);
+    transition: all .3s ease;
 }
 
 .finish-lp form {
@@ -497,6 +558,7 @@ main h1 {
 .finish-lp h2 {
     padding: 20px;
     font-size: 1.5rem;
+    font-weight: bolder;
 }
 
 .finish-lp p {
@@ -616,6 +678,12 @@ footer {
         margin: 16px;
         font-size: 12px;
         text-align: justify;
+    }
+
+    .containerSetores img{
+        width: 188px;
+        height: 188px;
+        object-fit: contain;
     }
 
 
