@@ -365,7 +365,7 @@ main h1 {
     width: 220px;
     height: 220px;
     object-fit: contain;
-    margin: 40px auto 20px;
+    margin: 20px auto 40px;
 }
 
 #mainSlider.carousel {
