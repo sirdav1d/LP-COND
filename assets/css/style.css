@@ -384,7 +384,7 @@ main h1 {
 #mainSlider .carousel-caption {
     text-align: justify;
     font-size: 14px;
-    margin: 0 0 24px;
+    margin: 24px 0 24px;
 }
 
 .carousel-item {
@@ -694,8 +694,8 @@ footer {
     }
 
     .containerSetores img{
-        width: 188px;
-        height: 188px;
+        width: 180px;
+        height: 180px;
         object-fit: contain;
     }
 
