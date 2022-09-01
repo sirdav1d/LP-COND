@@ -17,6 +17,7 @@
 }
 
 body {
+    margin: 0;
     padding: 0 12vmax;
     background-color: gainsboro;
     overflow-x: hidden;
@@ -114,11 +115,13 @@ main h1 {
     color: var(--verde);
     font-size: 18px;
     font-weight: bolder;
+    text-align: center;
 }
 
 .content-aside p {
     font-size: 16px;
     padding: 0 10px;
+    text-align: center;
 }
 
 .content-aside img {
@@ -355,7 +358,7 @@ main h1 {
 .containerSetores h1{
     color: whitesmoke;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .containerSetores img{
@@ -588,6 +591,10 @@ footer {
 @media screen and (max-width: 720px) {
     body {
         padding: 0;
+        margin: 0;
+        width: 100vw;
+        overflow-x: hidden;
+        scrollbar-width: 0;
     }
 
     header {
@@ -629,12 +636,13 @@ footer {
     .container {
         flex-direction: column-reverse;
         align-items: center;
-        margin: 20px;
+        margin: 20px 0;
     }
 
     .content-aside {
-        margin-top: 20px;
-        width: 100%;
+        margin: 20px 0;
+        padding: 0;
+        width: auto;
     }
 
     .container-type1 {
@@ -679,6 +687,10 @@ footer {
         margin: 16px;
         font-size: 14px;
         text-align: justify;
+    }
+
+    .containerSetores h1{
+        font-size: 20px;
     }
 
     .containerSetores img{
