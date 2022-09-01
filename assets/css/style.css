@@ -594,11 +594,11 @@ footer {
         margin: 0;
         width: 100vw;
         overflow-x: hidden;
-        scrollbar-width: 0;
+        scrollbar-width: none;
     }
 
     header {
-        height: 65px;
+        height:65px;
     }
 
     .header-white {
