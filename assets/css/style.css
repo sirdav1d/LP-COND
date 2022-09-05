@@ -663,8 +663,8 @@ footer {
     }
 
     .container-type2{
-        width: 100%;
-        max-width: 320px;
+        width: 75%;
+        min-width: 328px;
         
     }
     .container-type2 p {
