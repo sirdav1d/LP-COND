@@ -364,8 +364,8 @@ main h1 {
 }
 
 .containerSetores img{
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 180px;
     object-fit: contain;
     margin: 20px auto 40px;
 }
