@@ -301,7 +301,7 @@ main h1 {
     display: flex;
     flex-direction: column;
     box-shadow: 0px -10px 30px -22px rgba(0, 0, 0, 0.98);
-    background-image: url(https://pbs.twimg.com/media/FbdTaAAWIAEabYj?format=jpg&name=4096x4096);
+    background-image: url("../images/cam-back.svg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -540,7 +540,7 @@ main h1 {
 .finish-lp {
     color: whitesmoke;
     text-shadow: 2px 3px 6px #262626;
-    background-image: url(https://pbs.twimg.com/media/FbdgpyFXwAIUtIQ?format=jpg&name=4096x4096);
+    background-image: url("../images/finish-back.svg");
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -644,6 +644,7 @@ footer {
         height: 85px;
         margin: 0;
         margin-bottom: 4px;
+        object-fit: contain;
     }
 
     .type1 p {
