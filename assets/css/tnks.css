@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     color: whitesmoke;
-    text-shadow: .6px 4px 4px rgba(0, 0, 0, 0.475);
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.475);
 }
 
-body{
-    background: url("../images/thanks-back.svg");
+body {
+    background: url('../images/thanks-back.svg');
     background-blend-mode: darken;
     background-attachment: fixed;
     background-position: center;
@@ -18,51 +18,48 @@ body{
     background-repeat: no-repeat;
     overflow-x: hidden;
     height: 100vh;
-    
 }
 
-
-.overlay{
+.overlay {
     min-height: 100vh;
     height: 100%;
-    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
+    background-image: linear-gradient(180deg,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.1));
     display: flex;
     flex-direction: column;
-    padding: 0 0 48px;
-    
 }
 
-header{
+header {
     display: flex;
 }
 
-main{
+main {
     padding: 0px 16px;
-
-   
 }
 
-.logo{
+.logo {
     margin: 24px 48px 12px;
     width: 260px;
 }
 
-.headLine{
+.headLine {
     margin-top: 4px;
     font-size: 32px;
     text-align: center;
 }
 
-.jseg{
-    color:#03a60e;
+.jseg {
+    color: #03a60e;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    height: 110vh;
+    position: relative;
 }
 
 .headLine-p {
@@ -71,39 +68,38 @@ main{
     text-align: center;
 }
 
-.subHeadLine{
+.subHeadLine {
     padding: 16px 8px 0;
     font-size: 20px;
     font-weight: bolder;
     text-align: center;
 }
 
-.subHeadLine-Promo{
+.subHeadLine-Promo {
     color: #03a60e;
 }
-.offer{
 
+.offer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 16px 0px;
-
 }
 
-.offer-Cam{
-    width: 180px;
+.offer-Cam {
+    width: 130px;
     object-fit: contain;
     margin: 8px 24px;
 }
 
-.offer-p{
+.offer-p {
     font-size: 16px;
     font-weight: bolder;
     text-align: center;
 }
 
-.offer-price{
+.offer-price {
     margin: 8px 0;
     color: red;
     font-size: 32px;
@@ -113,25 +109,24 @@ main{
 .btn-green {
     padding: 8px;
     width: 240px;
-    background-color:#03a60e ;
+    background-color: #03a60e;
     border: none;
     color: whitesmoke;
     font-weight: bolder;
     text-decoration: none;
     cursor: pointer;
     font-size: 16px;
-    transition: all .4s ease;
+    transition: all 0.4s ease;
     text-align: center;
     text-shadow: none;
-
 }
 
 .btn-green:hover {
-    background-color: #01d90f
+    background-color: #01d90f;
 }
 
 footer {
-    display:flex;
+    display: flex;
     color: whitesmoke;
     padding: 12px;
     text-align: center;
@@ -139,66 +134,64 @@ footer {
     bottom: 0px;
     width: 100%;
     margin-top: 48px;
-
-
+    position: absolute;
 }
 
-.text-footer{
+.text-footer {
     text-align: center;
     font-size: 10px;
     width: 100%;
 }
-@media screen and (max-width:720px) {
-    .logo{
-        width:160px;
+
+@media screen and (max-width: 720px) {
+    .logo {
+        width: 160px;
         margin: 24px 24px 16px;
     }
-    .headLine{
+
+    .headLine {
         font-size: 22px;
     }
 
-    .headLine-p{
+    .headLine-p {
         font-size: 8px;
-        padding:0;
+        padding: 0;
         margin: 0;
     }
 
-    .subHeadLine{
+    .subHeadLine {
         margin-top: 8px;
         font-size: 16px;
     }
 
-    .offer{
+    .offer {
         flex-direction: column;
     }
 
-    .offer-price{
+    .offer-price {
         font-size: 24px;
     }
 
-    .offer-p{
+    .offer-p {
         font-size: 16px;
     }
 
-    .offer-Cam{
+    .offer-Cam {
         width: 164px;
         margin: 16px 8px;
     }
 
-    .headLine-p{
+    .headLine-p {
         font-size: 10px;
         margin: 8px 4px 8px;
     }
 
-    .btn-green{
+    .btn-green {
         width: 200px;
         font-size: 16px;
     }
-  
 
-        .text-footer {
-
-            font-size: 8px;
-
-        }
+    .text-footer {
+        font-size: 8px;
+    }
 }
