@@ -597,6 +597,10 @@ footer {
         height: 65px;
     }
 
+    .bannerLGPD {
+        flex-direction: column;
+   	}
+    
     .header-white {
         padding: 0;
     }
@@ -765,4 +769,36 @@ footer {
         left: 0;
         position: fixed;
     }
+}
+
+
+.bannerLGPD {
+    display: flex;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+    padding: 20px 40px;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    z-index: 999999999999999999999999999999999999;
+}
+
+.btnLGPD {
+    display: flex;
+    gap: 16px;
+}
+
+.btnLGPD button {
+    padding: 16px;
+    border-radius: 64px;
+    border: none;
+}
+
+.aceitoLGPD {
+    background-color: #03a60e;
+    color: white;
 }
